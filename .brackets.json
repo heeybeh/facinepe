@@ -1,0 +1,8 @@
+{
+    "jscodehints.detectedExclusions": [
+        "C:/projects/inepeApp/Facinepe/platforms/ios/cordova/lib/plugman/pluginHandlers.js",
+        "C:/projects/inepeApp/Facinepe/platforms/ios/cordova/lib/clean.js",
+        "C:/projects/inepeApp/Facinepe/platforms/ios/cordova/lib/configMunger.js",
+        "C:/projects/inepeApp/Facinepe/platforms/ios/cordova/lib/copy-www-build-step.js"
+    ]
+}

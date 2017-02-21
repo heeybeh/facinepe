@@ -1,0 +1,46 @@
+<html ng-app="starter">
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Facinepe</title>
+
+    <link href="http://www.loringdodge.com/files/ionic.min.css" rel="stylesheet">
+    <link href="http://www.loringdodge.com/files/nifty.modal.css" rel="stylesheet">
+    
+    <link href="css/style.css" rel="stylesheet" >
+    <link href="css/ionicons.min.css" rel="stylesheet" >
+    
+    <link href="http://code.ionicframework.com/nightly/css/ionic.css" rel="stylesheet"> 
+    
+    <script src="http://code.ionicframework.com/collide/0.0.4/collide.js"></script>
+    <script src="http://www.loringdodge.com/files/ionic.bundle.min.js"></script>
+    <script src="http://www.loringdodge.com/files/ionic.tdcards.js"></script>
+    <script src="js/app.js"></script>
+    <script src="lib/firebase/firebase.js"></script>
+    <script src="lib/angularfire/dist/angularfire.min.js"></script>
+</head>
+    <body background="img/download.png">
+        
+     <ion-nav-view></ion-nav-view>
+        
+        <script type="text/ng-template" id="modal.html">
+            <ion-modal-view>
+                <ion-content>
+                    <div class="list" >
+
+                        <label class="item item-input item-floating-label">
+                        <span class="input-label">Email</span>
+                        <input type="text" placeholder="Email">
+                    </label>
+                    <label class="item item-input item-floating-label">
+                        <span class="input-label">Senha</span>
+                        <input type="password" placeholder="Senha">
+                    </label>
+                        <button class="button button-block button-calm" ng-click="go('main')">Login</button>     
+                    </div>
+                </ion-content>
+            </ion-modal-view>
+        </script>
+    </body>
+</html>

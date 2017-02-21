@@ -1,0 +1,19 @@
+<ion-view view-title="Login">
+    <ion-content>
+        <div class="backg">
+            
+        <center><img id="loginImg" src="img/facinepe.jpg"></center>
+        <button class="button button-block button-calm" ng-click = "openModal()">Login pelo Email</button>
+          
+        <button class="button button-royal icon ion-social-facebook" ng-click="login('facebook')">Login pelo Facebook</button>
+            
+            <div ng-if="authData.facebook" class="list card">
+               <div class="item item-avatar">
+                <img ng-src="http://placehold.it/300x300" alt="Foto de Nome">
+                   <h2>Nome</h2>
+                   <p>Facebook ID:3232323232</p>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

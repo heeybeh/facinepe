@@ -1,0 +1,17 @@
+<ion-view view-title="Cursos">
+    <ion-nav-bar class='bar-light'>
+        <ion-nav-back-button>Voltar</ion-nav-back-button>
+    </ion-nav-bar>
+    
+    <ion-content >
+        <div class="backg">
+            <br>
+            <ion-list>
+                <ion-item ng-repeat="item in items">
+                    {{item.curso}}
+                </ion-item>
+            </ion-list>
+        </div>
+        
+    </ion-content>
+</ion-view>
